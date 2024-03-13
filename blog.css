@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar{
+    margin-top: 0px;
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    position:relative;
+    
+
+}
+ul li{
+    list-style: none;
+}
+.navbar .logo{
+    background-image: url('./fitness.avif');
+    background-size: cover;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.navbar .navitems{
+    text-transform: uppercase;
+    float:right;
+    padding: 35px;
+    display: inline-block;
+    
+    
+}
+.navbar .navitem{
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+    padding: 1px;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.heading div
+{
+    margin: 10px;
+    height: 30px;
+}
+
+section img
+{
+    box-shadow: 0px 0px 20px 0px rgb(148, 148, 148);
+}
+
+.content1 .imgb{
+    background-image: url('./nutri.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.conleft 
+{
+   float: left;
+   margin-left: 120px;
+   padding-right: 30px;
+   height: 400px;
+    width: 600px;
+}
+.conright
+{
+    display: inline-block;
+    height: 400px;
+    width: 600px;
+    padding: 10px;
+    margin-right: 50px;
+} 
+
+.conleft img
+{
+    height: 400px;
+    width: 600px;
+}
+.conright img
+{
+    margin: 10px;
+    height: 400px;
+    width: 600px;
+}
